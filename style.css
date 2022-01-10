@@ -55,12 +55,12 @@ li{
     vertical-align: top;
     position: relative;
 }
-
 .topnav a::after{
     content: '';
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 3.5px;
+    border-radius: 2.5px;
     top: 100%;
     background-color: #9ba2dd;
     left: 0;
@@ -148,7 +148,7 @@ li{
     color: #000;
     box-shadow: 0 0 70px 70px #D7DCFF inset, 0 0 0 0 #D7DCFF;
     -webkit-transition:all 150ms ease-in-out;
-    transition:all 350ms ease-in-out;
+    transition:all 550ms ease-in-out;
     width: 300px;
     height: 160px;
     
@@ -162,7 +162,7 @@ li{
     color: #000;
     box-shadow: 0 0 70px 70px #D7DCFF inset, 0 0 0 0 #D7DCFF;
     -webkit-transition:all 150ms ease-in-out;
-    transition:all 350ms ease-in-out;
+    transition:all 550ms ease-in-out;
     width: 300px;
     height: 160px;
 }
@@ -173,9 +173,9 @@ li{
 .tehnology_card{
     background-color: #9ba2dd;  
     color: #000;
-    box-shadow: 0 0 70px 70px #D7DCFF inset, 0 0 0 0 #D7DCFF;
+    box-shadow: 0 0 60px 60px #D7DCFF inset, 0 0 0 0 #D7DCFF;
     -webkit-transition:all 150ms ease-in-out;
-    transition:all 350ms ease-in-out;
+    transition:all 550ms ease-in-out;
     width: 300px;
     height: 160px;
 }
@@ -188,7 +188,7 @@ li{
     color: #000;
     box-shadow: 0 0 70px 70px #D7DCFF inset, 0 0 0 0 #D7DCFF;
     -webkit-transition:all 150ms ease-in-out;
-    transition:all 350ms ease-in-out;
+    transition:all 550ms ease-in-out;
     width: 300px;
     height: 160px;
 }
