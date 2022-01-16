@@ -17,7 +17,6 @@ li{
     list-style: none;
 }
 
-
 /* Header */
 
 
@@ -40,13 +39,15 @@ li{
 }
 .nav_container{
     margin: 150px 0px 0px 0px ;
+    
 }
 .icon{
     display: none;
+    
 }
 .topnav{   
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Franklin Gothic Medium', sans-serif;
     word-spacing: 60px;
     margin-bottom: 20px;
 }
@@ -55,34 +56,14 @@ li{
     vertical-align: top;
     position: relative;
 }
-.topnav a::after{
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 3.5px;
-    border-radius: 2.5px;
-    top: 100%;
-    background-color: #9ba2dd;
-    left: 0;
-    transform: scale(0,1);
-    transition: transform 0.6s ease;
-}
-.topnav a:hover::after{
-    transform: scale(1,1);
-}
-.topnav a:hover{
-    color:#6973B9;
-    transition-duration: 0.8s;
-}
-
 
 /* Picture liceum4 */
 
 .block_container{
     width: 100%;
     height: 250px;
-    font-family:'Poppins', sans-serif;
-    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
 }
 
 .block_container img{
@@ -100,7 +81,6 @@ li{
     font-size:48px;
     font-weight: lighter;
     padding-bottom: 10px;
-    
 }
 .slogan p{
     position: relative;
@@ -108,31 +88,25 @@ li{
     color: #FFF;
     font-size: 30px;
 }
-
-
-
 .line{
     text-align: center;
     margin-top: 20px;
     background-color: #6973B9;
     color: #FFFF;
     font-size: 16px;
-    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Franklin Gothic Medium', sans-serif;
     padding: 5px;
 }
 
-
-
-
 /* Block  */
 .selection{
-    font-family: 'Encode Sans', sans-serif;
     margin:50px 0px 70px 0 ;
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-gap: 30px;
     font-size: 16px;
+    font-family:'Franklin Gothic Medium', sans-serif;
 
 }
 .selection img{
@@ -182,9 +156,7 @@ li{
     width: 300px;
     height: 160px;
 }
-.tehnology_card:hover{
-    box-shadow: 0 0 10px 0 #D7DCFF inset, 0 0 10px 4px #D7DCFF;
-}
+
 
 .nature_card{
     background-color: #9ba2dd;  
@@ -195,16 +167,13 @@ li{
     width: 300px;
     height: 160px;
 }
-.nature_card:hover{
-    box-shadow: 0 0 10px 0 #D7DCFF inset, 0 0 10px 4px #D7DCFF;
-}
 
 
 /* News part */
 
 .news{
     width: 100%;
-    height: 780px;
+    height: 730px;
 }
 .news img{
     width: 100%;
@@ -222,38 +191,18 @@ li{
     line-height: 250px; 
     text-align: center;
     position: relative;
-    color: #FFF;
-    font-family: 'Encode Sans', sans-serif;
     font-size: 35px;
-}
-.blocks{
-    margin-top: 60px;
-}
-.block_1 button{
-    position: absolute;    
-    bottom: 0;
-    left: 70%;
-    float: right;
-    width: 150px;
-    height: 30px;
-    margin-bottom: 10px;
-    border: 2px solid #D7DCFF;
-    border-radius: 7px;
     color: #FFF;
-    background-color: #6973B9;
-    font-size: 14px;
-    padding: 3px 3px 3px 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
-.block_1 h3{
-    padding-bottom: 10px;
-}
-.block_1 {
-    position: relative;
-    width: 600px;
-    height: 150px;
-    border: 3px solid #D7DCFF;
-    border-radius: 5px; 
-    padding: 10px;
+.blocks{ 
+    margin-top: 60px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
 }
 .date{
     color: #6973B9;
@@ -265,6 +214,66 @@ li{
 }
 
 
+.block_1 {
+    position: relative;
+    width: 600px;
+    height: 170px;
+    border: 3px solid #D7DCFF;
+    border-radius: 5px; 
+    padding: 10px;
+    
+}
+.block_1 h3{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+
+
+.block_2 { 
+    position: relative;
+    width: 600px;
+    height: 385px;
+    border: 3px solid #D7DCFF;
+    border-radius: 5px; 
+    padding: 10px;
+    margin-left: 20px;
+}
+.block_2 h3{
+    padding-bottom: 10px;
+}
+
+.block_3 {
+    margin-top: 15px;
+    position: relative;
+    width: 600px;
+    height: 170px;
+    border: 3px solid #D7DCFF;
+    border-radius: 5px; 
+    padding: 10px;
+}
+.block_3 h3{
+    padding-bottom: 10px;
+}
+
+.button{
+    -webkit-transition: box-shadow 600ms ease-in-out, color 600ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    position: absolute;    
+    bottom: 0;
+    left: 70%;
+    float: right;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 2px solid #D7DCFF;
+    border-radius: 7px;
+    color: #FFF;
+    background-color: #6973B9;
+    font-size: 16px;
+    padding: 3px 3px 3px 3px;
+}
 
 
 
@@ -276,6 +285,39 @@ li{
 
 
 
+
+
+
+.tehnology_card:hover{
+    box-shadow: 0 0 10px 0 #D7DCFF inset, 0 0 10px 4px #D7DCFF;
+}
+.topnav a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3.5px;
+    border-radius: 2.5px;
+    top: 100%;
+    background-color: #9ba2dd;
+    left: 0;
+    transform: scale(0,1);
+    transition: transform 0.6s ease;
+}
+.topnav a:hover::after{
+    transform: scale(1,1);
+}
+.topnav a:hover{
+    color:#6973B9;
+    transition-duration: 0.8s;
+}
+.nature_card:hover{
+    box-shadow: 0 0 10px 0 #D7DCFF inset, 0 0 10px 4px #D7DCFF;
+}
+
+.button:hover{
+    box-shadow: 0 0 15px 15px #cbcfee inset;
+    color: #000;
+}
 
 
 
