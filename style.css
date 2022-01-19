@@ -1,6 +1,21 @@
-html, body{
+html, body,section{
     width: 100%;
     height: 100%;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+section:nth-of-type(even) {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+  
+section:nth-of-type(odd) {
+    color: black;
+    background: rgb(255, 255, 255);
 }
 *{
     margin: 0;
@@ -274,6 +289,53 @@ li{
     font-size: 16px;
     padding: 3px 3px 3px 3px;
 }
+
+/* About_block */
+
+
+.about_us {
+    display:grid;
+    width: 100%;
+    height: 750px;
+    grid-template-columns: 650px 500px;
+}
+.info {
+    margin-top: 15px;
+    width: 610px;
+    height: 450px;
+    border: 2px solid #D7DCFF;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+    word-spacing: 3 px;
+    line-height:30px;
+}
+
+.liceum {
+    width: 620px;
+    height:460px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.info_blocks {
+    
+}
+.finance_block {
+}
+.picture {
+}
+.open_data_block {
+}
+.succes_block {
+}
+.about_block {
+}
+
+
+
+
+
 
 
 
